@@ -17,3 +17,9 @@ conf.modules_dir = conf.vim_path .. conf.path_slash .. "modules"
 if conf.is_windows then
   LazyVim.terminal.setup("pwsh")
 end
+
+vim.g.autoformat = false
+vim.o.background = "light"
+
+local opt = vim.opt
+opt.relativenumber = false

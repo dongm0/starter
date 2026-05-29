@@ -19,7 +19,6 @@ if conf.is_windows then
 end
 
 vim.g.autoformat = false
-vim.o.background = "light"
 
 local opt = vim.opt
 opt.relativenumber = false

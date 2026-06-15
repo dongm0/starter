@@ -7,7 +7,7 @@ return {
     opts = {
       dashboard = {
         preset = {
-          header = table.concat(require("ascii").get_random("misc", "skulls"), "\n"),
+          header = require("custom-ascii").getRandom(),
         },
       },
     },
